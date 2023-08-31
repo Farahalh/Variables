@@ -20,9 +20,12 @@
             string myFirstName;
             myFirstName = Console.ReadLine();
 
-            string myLastName;
-            Console.Write("Type your last name: ");
-            myLastName = Console.ReadLine();
+            //string myLastName;
+            //Console.Write("Type your last name: ");
+            //myLastName = Console.ReadLine();
+
+            Console.WriteLine("Type you last name: ");
+            string myLastName = Console.ReadLine();
 
             Console.WriteLine("Hello," + myFirstName + " " + myLastName);
             Console.ReadLine();
